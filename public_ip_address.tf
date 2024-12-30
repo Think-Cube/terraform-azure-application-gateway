@@ -6,5 +6,3 @@ resource "azurerm_public_ip" "main" {
   sku                 = "Standard"
   tags                = var.default_tags
 }
-
-
