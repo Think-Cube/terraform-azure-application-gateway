@@ -19,7 +19,7 @@ resource "azurerm_application_gateway" "main" {
   }
 
   gateway_ip_configuration {
-    name      = "${var.environment}qia${var.app_gateway_name}${var.region}qgwconfig"
+    name      = "${var.environment}-${var.app_gateway_name}${var.region}qgwconfig"
     subnet_id = data.azurerm_subnet.subnet.id
   }
 
