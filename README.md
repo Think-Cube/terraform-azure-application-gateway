@@ -3,13 +3,13 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.3 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 4.29.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 4.27.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.29.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.27.0 |
 
 ## Modules
 
@@ -19,11 +19,11 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_application_gateway.main](https://registry.terraform.io/providers/hashicorp/azurerm/4.29.0/docs/resources/application_gateway) | resource |
-| [azurerm_public_ip.main](https://registry.terraform.io/providers/hashicorp/azurerm/4.29.0/docs/resources/public_ip) | resource |
-| [azurerm_client_config.current](https://registry.terraform.io/providers/hashicorp/azurerm/4.29.0/docs/data-sources/client_config) | data source |
-| [azurerm_resource_group.rg](https://registry.terraform.io/providers/hashicorp/azurerm/4.29.0/docs/data-sources/resource_group) | data source |
-| [azurerm_subnet.subnet](https://registry.terraform.io/providers/hashicorp/azurerm/4.29.0/docs/data-sources/subnet) | data source |
+| [azurerm_application_gateway.main](https://registry.terraform.io/providers/hashicorp/azurerm/4.27.0/docs/resources/application_gateway) | resource |
+| [azurerm_public_ip.main](https://registry.terraform.io/providers/hashicorp/azurerm/4.27.0/docs/resources/public_ip) | resource |
+| [azurerm_client_config.current](https://registry.terraform.io/providers/hashicorp/azurerm/4.27.0/docs/data-sources/client_config) | data source |
+| [azurerm_resource_group.rg](https://registry.terraform.io/providers/hashicorp/azurerm/4.27.0/docs/data-sources/resource_group) | data source |
+| [azurerm_subnet.subnet](https://registry.terraform.io/providers/hashicorp/azurerm/4.27.0/docs/data-sources/subnet) | data source |
 
 ## Inputs
 
