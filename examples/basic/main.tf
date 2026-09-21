@@ -1,5 +1,5 @@
 module "application_gateway" {
-  source = "github.com/Think-Cube/terraform-azure-application-gateway?ref=v1.0.0"
+  source = "../.."
 
   name                = "agw-dev-example"
   resource_group_name = "rg-example"
