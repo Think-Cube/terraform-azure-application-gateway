@@ -1,4 +1,3 @@
-<!-- BEGIN_TF_DOCS -->
 # Example: Advanced — Azure Application Gateway
 
 Provisions an Azure Application Gateway with configurable listeners and routing rules. Full-featured example with optional configuration blocks enabled.
@@ -114,17 +113,3 @@ module "application_gateway" {
   }
 }
 ```
-
-## Requirements
-
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 5.0 |
-
-## Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_application_gateway"></a> [application\_gateway](#module\_application\_gateway) | ../.. | n/a |
-<!-- END_TF_DOCS -->
